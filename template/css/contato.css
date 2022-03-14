@@ -1,0 +1,121 @@
+.wq-header .wq-menu-principal > ul > li:nth-child(6) a{
+	color: #ffc600;
+}
+.wq-header .wq-menu-principal > ul > li:nth-child(1) a{
+	color: #fff;
+}
+
+.wq-01-contato .wq-titulo_1{
+	max-width: 500px;
+}
+.wq-01-contato{
+	position: relative;
+}
+.wq-01-contato .wq-container{
+	z-index: 3;
+	position: relative;
+}
+.wq-01-contato:after{
+	position: absolute;
+	content: '';
+	background:#ffc600;
+	width: 50%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	right: 0;
+	top: 0;
+}
+
+.wq-01-contato .wq-box_6 ul li{
+	background-color: #231f20;
+	border-radius: 50%;
+	color: #fff;
+	margin-right: 10px;
+	transition: all linear .3s;
+	padding: 5px;
+}
+
+
+.wq-01-contato .wq-box_6 ul li:hover{
+	background-color: #ffc600;
+}
+.wq-01-contato .wq-box_6 ul li a{
+	color: #fff;
+	display: flex;	
+}
+.wq-01-contato .wq-box_6 h4{
+	margin-bottom: 100px;
+	font-size: 21px;
+}
+.wq-01-contato .wq-box_6 p{
+	font-size: 21px;
+	margin-bottom: 20px;
+}
+.wq-01-contato .wq-box_6:first-child .wq-conteudo{
+	padding-left: 0;
+	padding-right: 130px;
+}
+.wq-01-contato .wq-box_6 .wq-conteudo{
+	padding:20px 50px;
+}
+.wq-01-contato .wq-box_6 form input,.wq-01-contato .wq-box_6 form textarea{
+	width: calc(100% - 60px);
+	padding: 20px 30px;
+	border: none;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.wq-01-contato .wq-box_6 form textarea{
+	height: 100px;
+}
+.wq-01-contato .wq-box_6 form button{
+	background: #231f20;
+	color: #ffc600;
+	display: block;
+	margin: 0 0 0 auto;
+	padding: 20px 40px;
+	border: 1px solid transparent
+}
+.wq-01-contato .wq-box_6 form button:hover{
+	background: #ffc600;
+	color: #231f20;
+	border-color: #231f20;
+}
+/*wq-mapa*/
+.wq-mapa{
+	position: relative;
+	padding: 0px 0;
+}
+.wq-mapa .wq-titulo{
+		padding: 20px 0;
+	background: #252525;
+}
+.wq-mapa .wq-titulo_1{
+	max-width: 300px;
+}
+.wq-mapa .wq-titulo_1 h2{
+	color: #ffc600;
+}
+.wq-mapa .wq-titulo_1 h2:after{
+	background: #fff;
+	margin-bottom: 0;
+}
+.wq-mapa .wq-container{
+	position: relative;
+}
+.wq-mapa > .wq-container{
+	top: -20rem;
+}
+.wq-mapa .wq-conteudo{
+	background: #f9c90f;
+	position: absolute;
+	max-width: 170px;
+	max-height: 290px;
+	padding: 50px;
+	top: 0;
+	left: 0;
+}
+.wq-mapa .wq-conteudo p{
+	margin-bottom: 0;
+}
