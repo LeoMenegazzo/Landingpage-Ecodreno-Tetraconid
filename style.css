@@ -825,3 +825,22 @@ header.header_fixo {
     line-height: 140%;
     color: #fff;
 }
+
+.wq-miniaturas{
+    display: grid;
+    margin: 25px 0;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.wq-miniaturas figure img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    opacity: .7;
+    transition: all .2s linear;
+}
+.wq-miniaturas figure:hover img{
+    opacity: 1;
+    border-radius: 0;
+}
